@@ -24,7 +24,7 @@
     }
 
    
-    echo '<table border=2; bgcolor="#d9dddc">
+    echo '<table border=2; bgcolor="#f8f9f8">
             <tr>
                 <th>Game Name</th>
                 <th>Game Genre</th>
