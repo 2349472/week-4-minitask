@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #EAF0F0;
+	  font-family: "Goudy Bookletter 1911", sans-serif;
+	 }
+
+    form {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 40px 350px;
+      border-radius: none;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 20);
+    }
+
+    b {
+      color: #333333;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 6px 60px;
+      margin: 6px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 1px;  
+	}
+
+    input[type="submit"] {
+      background-color: #97BDBF;
+      color: #ffffff;
+      padding: 6px 30px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+	  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	  font-family: "Goudy Bookletter 1911", sans-serif;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #619698;
+    }
+  </style>
+</head>
+<body>
+  <form action="config.php" method="POST">
+    <b>Username:</b><br>
+    <input type="text" name="username"><br>
+    <b>Password:</b><br>
+    <input type="password" name="password"><br><br>
+    <input type="submit" value="Login">
+  </form>
+</body>
+</html>
